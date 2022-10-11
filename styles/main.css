@@ -38,10 +38,13 @@
     margin: auto;
 }
 .table-container{
-    background: greenyellow;
+    background: rgba(129, 8, 8, .5);
     width: 50%;
     margin: auto;
     padding: 10px;
+}
+.table-container:hover{
+    background: rgba(129, 8, 8, 1);
 }
 .table-container table,tr,th,td{
     margin: auto;
@@ -75,4 +78,7 @@
 }
 .combinators + p{
     background: red;
+}
+div > p{
+    color: red;
 }

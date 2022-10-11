@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    border: 2px solid black;
+    padding: 5px;
+}
+.left{
+    border: 2px solid black;
+    padding: 5px;
+    width: 30%;
+    float: left;
+}
+.right{
+    border: 2px solid black;
+    padding: 5px;
+    width: 70%;
+    float: right;
+}
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(/img/image.jfif);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
